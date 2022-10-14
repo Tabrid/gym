@@ -1,0 +1,178 @@
+.card {
+    background-color: rgb(218, 226, 226);
+}
+
+.body {
+    display: flex;
+    /* grid-template-columns: 4fr 1fr; */
+}
+
+.container {
+
+    width: 30%;
+}
+
+.card-body {
+    width: 200px;
+
+}
+
+.card-style {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    margin: 50px 50px;
+}
+
+.bg-white {
+    width: 200px;
+
+    margin-bottom: 50px;
+    border: 2px;
+    border-radius: 5%;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    width: 70%;
+}
+
+
+
+.sector {
+    border-radius: 5%;
+}
+
+.sector:hover {
+    background-color: red;
+}
+
+.intro {
+    background-color: rgb(218, 226, 226);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 5%;
+}
+
+.break {
+    background-color: rgb(218, 226, 226);
+    padding-top: 5px;
+    border-radius: 5%;
+}
+
+
+
+.count {
+    background-color: rgb(218, 226, 226);
+    padding-top: 5px;
+    border-radius: 5%;
+}
+
+.last {
+    border-radius: 5%;
+}
+
+.header-nav {
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+
+.text-nav {
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 36px;
+    font-size: 16px;
+}
+
+.text-nav:hover {
+    color: orange;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+
+}
+
+.drop-box {
+
+    display: flex;
+
+}
+
+.Dip-cont img {
+
+    height: 50px;
+    width: 5opx;
+}
+
+@media only screen and (max-width: 586px) {
+    .body {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 50px;
+
+    }
+
+
+    .card-style {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* margin-left: 20%; */
+    }
+
+    .break {
+        display: flex;
+    }
+
+    .count {
+        background-color: rgb(218, 226, 226);
+        padding: 20px;
+        border-radius: 5%;
+    }
+
+    .container {
+
+        width: 100%;
+    }
+
+    .header-nav {
+        height: 80px;
+        background-color: #1C2B35;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .header-nav h1 {
+
+        font-size: 25px;
+
+    }
+}
+
+@media only screen and (max-width: 1200px)and (min-width:587px) {
+    .body {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1, 1fr;
+        margin-left: 130px;
+    }
+
+    .card-style {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
